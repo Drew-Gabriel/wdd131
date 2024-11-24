@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav Bar and Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">Temple Album</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Old</a></li>
+                <li><a href="#services">New</a></li>
+                <li><a href="#contact">Large</a></li>
+                <li><a href="#contact">Small</a></li>
+
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <center>
+        <div><h3>Home</h3> </div></center>
+        <section class="card-container">
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+                <p>Aba Nigeria Temple.</p>
+            </div>
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+
+                <p>Aba Nigeria Temple.</p>
+            </div>
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+
+                <p>Aba Nigeria Temple.</p>
+            </div>
+        </section>
+        <section class="card-container">
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+                <p>Aba Nigeria Temple.</p>
+            </div>
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+
+                <p>Aba Nigeria Temple.</p>
+            </div>
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+
+                <p>Aba Nigeria Temple.</p>
+            </div>
+        </section>
+        <section class="card-container">
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+                <p>Aba Nigeria Temple.</p>
+            </div>
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+
+                <p>Aba Nigeria Temple.</p>
+            </div>
+            <div class="card">
+                <img src="/img/aba_nigeria_temple_lds.jpeg" alt="">
+
+                <p>Aba Nigeria Temple.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Taiye Gabriel Adebenson. Benin City, Nigeria</p>
+        <div id="date-container"> <div id="date"></div> </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
