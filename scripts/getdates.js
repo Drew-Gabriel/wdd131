@@ -1,7 +1,6 @@
-// Get the current year and update the footer
-const currentYear = new Date().getFullYear();
-document.getElementById("currentyear").textContent = currentYear;
+// Display current year
+document.getElementById("currentyear").textContent = new Date().getFullYear();
 
-// Get the last modified date and update the footer
-const lastModifiedDate = document.lastModified;
-document.getElementById("lastModified").textContent = "Last modified: " + lastModifiedDate;
+// Display last modified date
+document.getElementById("lastModified").textContent =
+  "Last Modification: " + document.lastModified;
